@@ -2,16 +2,32 @@
 
 /***********header************/
 .jumbotron {
-  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 100%), url('https://s-media-cache-ak0.pinimg.com/originals/ee/a1/77/eea17770629cf5b1a3c899e528c0c6bf.jpg') repeat 0 0;
+  background: linear-gradient(to bottom, rgba(71,100,129,.95) 0%,rgba(71,100,129,.95) 100%), url('https://s-media-cache-ak0.pinimg.com/originals/ee/a1/77/eea17770629cf5b1a3c899e528c0c6bf.jpg') repeat 0 0;
 }
 
-.border_bottom {
+.border_bottom_portfolio {
   border-bottom: 10px solid #18bc9c;
+}
+
+.border_bottom_about {
+  border-bottom: 10px solid #E74C3C;
+}
+
+.border_bottom_contact {
+  border-bottom: 10px solid #2c3e50;
+}
+
+.title{
+  color: #ffffff !important;
 }
 
 .subtitle {
   font-weight: 900 !important;
   color: gray !important;
+}
+
+.directory_buttons {
+  margin-bottom: -85px;
 }
 
 .about {
@@ -53,7 +69,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 35px;
+}
+
+#contact_me {
+  margin-bottom: 20px;
 }
 
 textarea {
@@ -88,9 +107,20 @@ textarea {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.8) 100%), url('https://s-media-cache-ak0.pinimg.com/originals/ee/a1/77/eea17770629cf5b1a3c899e528c0c6bf.jpg') repeat 0 0;
+  background: linear-gradient(to bottom, rgba(71,100,129,.95) 0%,rgba(71,100,129,.95) 100%), url('https://s-media-cache-ak0.pinimg.com/originals/ee/a1/77/eea17770629cf5b1a3c899e528c0c6bf.jpg') repeat 0 0;
   padding: 20px 0 10px 0;
+}
+
+.about_footer {
+  border-top: 5px solid #E74C3C;
+}
+
+.portfolio_footer {
   border-top: 5px solid #18bc9c;
+}
+
+.contact_footer {
+  border-top: 5px solid #2c3e50;
 }
 
 .social_link img{
@@ -100,6 +130,6 @@ textarea {
 }
 
 #copyright {
-  color: gray;
+  color: #ffffff;
   font-weight: 900 !important;
 }
