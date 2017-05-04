@@ -45,6 +45,22 @@
   line-height: 150%;
 }
 
+#name_field, #email_field, textarea {
+  width: 355px;
+}
+
+.main_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+textarea {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
 .project_images {
   display: flex;
   flex-wrap: wrap;
