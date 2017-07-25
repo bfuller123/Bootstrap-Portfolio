@@ -1,1 +1,3 @@
-# Bootstrap-Portfolio
+# Portfolio
+
+Fully responsive bootstrap based portfolio.
